@@ -15,13 +15,10 @@ public class ArrayOfNumbersApplication {
         //ArrayOfNumbers a = new ArrayOfNumbers();
        // a.setItem();
         
-        int [] newArray={5,25,3,4,5};
+        int [] newArray={2,3,4,5,6};
         
         ArrayOfNumbers b = new ArrayOfNumbers(newArray);
-        b.count();
-        b.average();
-        b.count();
-        b.max();
+        b.scalarMultiply();       
 
     }
 }
