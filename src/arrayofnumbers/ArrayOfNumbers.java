@@ -143,6 +143,27 @@ public ArrayOfNumbers(int newArray[]) {
         
         
     }
+     
+     public void scalarMultiply() {
+         
+        Scanner s = new Scanner(System.in);
+         
+        int number = s.nextInt();
+        
+        int total = 0;
+              
+        for(int i=0; i < intArray.length; i++) {
+            
+          total = total + (number * intArray[i]);  
+        }
+        
+        
+        
+        System.out.println("The Average is: " + total);
+        
+        
+        
+    }
     
     
     
