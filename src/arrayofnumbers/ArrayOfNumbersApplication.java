@@ -21,5 +21,7 @@ public class ArrayOfNumbersApplication {
         b.count();
         b.average();
         b.count();
+        b.max();
+
     }
 }
