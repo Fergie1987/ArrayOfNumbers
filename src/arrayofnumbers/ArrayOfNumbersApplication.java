@@ -20,6 +20,8 @@ public class ArrayOfNumbersApplication {
         ArrayOfNumbers b = new ArrayOfNumbers(newArray);
         b.count();
         b.average();
+        b.count();
         b.max();
+
     }
 }
