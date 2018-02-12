@@ -18,7 +18,7 @@ public class ArrayOfNumbersApplication {
         int [] newArray={2,3,4,5,6};
         
         ArrayOfNumbers b = new ArrayOfNumbers(newArray);
-        b.scalarMultiply();       
+        b.addConstant();
 
     }
 }
