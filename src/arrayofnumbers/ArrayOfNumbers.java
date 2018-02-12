@@ -160,9 +160,24 @@ public ArrayOfNumbers(int newArray[]) {
         
         
         System.out.println("The Average is: " + total);
-        
-        
-        
+              
+    }
+     
+      public void addConstant() {
+         
+        Scanner s = new Scanner(System.in);
+         
+        int number = s.nextInt();
+                    
+        for(int i=0; i < intArray.length; i++) {
+            
+         intArray[i] = intArray[i] + number;
+          
+          
+          
+          System.out.println(intArray[i]);
+        }
+              
     }
     
     
